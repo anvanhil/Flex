@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header h1{
+    display: flex;
+    justify-content: center;
+}
+body{
+    box-sizing: border-box;
+    position:absolute;
+    flex-wrap: wrap;
+    
+
+}
+
+header{
+    background-color: red;
+
+}
+#Titre{
+    display: flex;
+    justify-content: center;
+
+}
+#nav-links {
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+#nav-links li{
+    display: block;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#aside1{
+    background-color: yellow;
+}
+section p{
+    background-color: rgb(13, 183, 235);
+    border-left: 2px solid black;
+    
+    flex: 1 0 200px;
+}
+#aside2{
+    background-color: purple;
+}
+
+#footer{
+    background-color: rgb(80, 247, 80);
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom: 0px;
+}
